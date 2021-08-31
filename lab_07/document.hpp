@@ -1,0 +1,48 @@
+#ifndef OOP7_DOCUMENT_HPP
+#define OOP7_DOCUMENT_HPP
+
+#include <fstream>
+#include <cstdint>
+#include <memory>
+#include <string>
+#include <algorithm>
+#include "figure.hpp"
+#include <vector>
+#include "factory.hpp"
+
+struct document {
+public:
+    void Print() const ;
+
+    document(std::string& newName): name_(newName), factory_(), buffer_(0) {};
+
+    void Insert(std::shared_ptr<figure>& ptr);
+
+    void Rename(const std::string& newName);
+
+    void Save (const std::string& filename) const;
+
+    void Load(const std::string& filename);
+
+    std::shared_ptr<figure> GetFigure(uint32_t index);
+
+    void Erase(uint32_t index);
+
+    std::string GetName();
+
+    size_t Size();
+
+private:
+    friend class InsertCommand;
+    friend class DeleteCommand;
+    factory factory_;
+    std::string name_;
+    std::vector<std::shared_ptr<figure>> buffer_;
+
+    void RemoveLast();
+
+    void InsertIndex(std::shared_ptr<figure>& newFigure, uint32_t index);
+};
+
+
+#endif
