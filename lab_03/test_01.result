@@ -1,0 +1,75 @@
+Figures:
+a1 = -1 0 a2 = 0 1 a3 = 1 0 a4 = 0 -1
+
+Areas:
+2
+
+Centers:
+0 0
+
+Figures:
+a1 = -1 0 a2 = 0 1 a3 = 1 0 a4 = 0 -1
+
+a1 = -1 0 a2 = 0 1 a3 = 1 1 a4 = 1 0 a5 = 0 -1
+
+Areas:
+2
+
+2.5
+
+Centers:
+0 0
+
+0.2 0.2
+
+Figures:
+a1 = -1 0 a2 = 0 1 a3 = 1 0 a4 = 0 -1
+
+a1 = -1 0 a2 = 0 1 a3 = 1 1 a4 = 1 0 a5 = 0 -1
+
+a1 = -1 0 a2 = 0 1 a3 = 1 1 a4 = 2 0 a5 = 1 -1 a6 = 0 -1
+
+Areas:
+2
+
+2.5
+
+4
+
+Centers:
+0 0
+
+0.2 0.2
+
+0.5 0
+
+
+Figures:
+a1 = -1 0 a2 = 0 1 a3 = 1 0 a4 = 0 -1
+
+a1 = -1 0 a2 = 0 1 a3 = 1 1 a4 = 1 0 a5 = 0 -1
+
+Areas:
+2
+
+2.5
+
+Centers:
+0 0
+
+0.2 0.2
+
+
+Figures:
+a1 = -1 0 a2 = 0 1 a3 = 1 0 a4 = 0 -1
+
+Areas:
+2
+
+Centers:
+0 0
+
+
+Figures:
+Areas:
+Centers:

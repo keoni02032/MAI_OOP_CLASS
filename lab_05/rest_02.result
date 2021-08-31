@@ -1,0 +1,43 @@
+1 - push 
+2 - top 
+3 - pop 
+4 - erase_to_num 
+5 - insert_to_num 
+6 - for_each 
+7 - count_if 
+0 - exit 
+5 
+1 
+-1 0 
+0 1 
+1 0 
+0 -1 
+1 
+-3 0 
+0 3 
+3 0 
+0 -3 
+
+5 
+2 
+-2 0 
+0 2 
+2 0 
+0 -2 
+6 
+[ -1 0 ] [ 0 1 ] [ 1 0 ] [ 0 -1 ] 
+[ -2 0 ] [ 0 2 ] [ 2 0 ] [ 0 -2 ] 
+[ -3 0 ] [ 0 3 ] [ 3 0 ] [ 0 -3 ] 
+7 
+10 
+2 
+7 
+20 
+3 
+1 
+-20 0 
+0 1 
+1 0 
+0 -1 
+lab5: /home/sergey/labs/OOP/lab5/example/rhombus.hpp:30: rhombus<T>::rhombus(std::istream&) [with T = int; std::istream = std::basic_istream<char>]: Assertion `correct()' failed. 
+Аварийный останов (стек памяти сброшен на диск)
